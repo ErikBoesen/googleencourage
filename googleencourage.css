@@ -1,4 +1,4 @@
 /* TODO: I think this changes semirandomly... figure out a better way! */
-.mw:hover {
-    visibility: none;
+div.mw:hover {
+    opacity: 0.1;
 }
