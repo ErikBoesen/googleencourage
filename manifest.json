@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "GoogleEncourage",
+    "version": "0.1.0",
+    "description": "Disincentivize using mouse on Google Search",
+    "icons": {
+        "128": "icons/128.png"
+    },
+    "permissions": [],
+    "content_scripts": [{
+        "matches": ["https://google.com/search", "file://"],
+        "css": ["googleencourage.css"],
+        "js": []
+    }]
+}
