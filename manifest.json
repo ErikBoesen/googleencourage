@@ -4,8 +4,8 @@
     "version": "0.1.0",
     "description": "Disincentivize using mouse on Google Search",
     "content_scripts": [{
-        "matches": ["https://google.com/search", "*://*.*/*"],
+        "matches": ["*://*/*"],
         "css": ["googleencourage.css"],
-        "js": []
+        "js": ["googleencourage.js"]
     }]
 }
