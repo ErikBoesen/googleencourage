@@ -1,2 +1,2 @@
 all:
-	zip -r archive.zip *.js *.html icons manifest.json
+	zip -r archive.zip *.css manifest.json
